@@ -15,10 +15,5 @@ pipeline {
                sh "mvn package"
             }
         }
-        stage('Hi') {
-            steps {
-               echo "hi , how are you"
-            }
         }
-    }
 }
